@@ -96,3 +96,43 @@ html {
   background-image: url(./images/bg1.jpg);
   min-height: 100%;
 }
+
+@media (max-width: 768px) {
+  .heading-container {
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+  }
+  .heading-container__heading {
+    padding: 0.7rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline: 0.5rem inset purple;
+    outline-offset: 1rem;
+  }
+
+  .heading-container__text {
+    padding: 0.7rem;
+    text-transform: capitalize;
+    border-radius: 0.7rem 0rem 0.7rem 0rem;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.2rem;
+    line-height: 3rem;
+  }
+
+  .section {
+    padding: 1.5rem 2rem;
+  }
+
+  .heading-container__logo {
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .background--image1,
+  .background--image2,
+  .background--image3,
+  .background--image4 {
+    background-attachment: scroll;
+  }
+}
